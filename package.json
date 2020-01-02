@@ -4,7 +4,7 @@
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
-	"version": "2.1.50",
+	"version": "2.1.51",
 	"scripts": {
 		"start": "./bin/instagram_cache.js",
 		"build": "npm run clean && npm run compile",
@@ -18,7 +18,7 @@
 		"@ctx-core/array": "^15.5.1",
 		"@ctx-core/dom": "^5.10.42",
 		"@ctx-core/fetch": "^6.1.73",
-		"@ctx-core/fontawesome": "^10.2.39",
+		"@ctx-core/fontawesome": "^10.2.40",
 		"@ctx-core/instagram": "^1.1.42",
 		"@ctx-core/sleep": "^3.1.11",
 		"@ctx-core/store": "^13.0.0",
