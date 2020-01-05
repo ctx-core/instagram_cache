@@ -1,7 +1,7 @@
 import { Writable } from 'svelte/store';
 import { falsy } from '@ctx-core/function';
 export interface Writable__a1__pathname__medium__source extends Writable<falsy | string[]> {
-    reload__a1__pathname__medium__source: () => void;
+    reload__a1__pathname__medium__source: () => Promise<void>;
 }
 export declare const b__a1__pathname__medium__source: (ctx?: any, opts?: any) => any;
 export declare const __a1__pathname__medium__source: any;

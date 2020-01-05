@@ -5,7 +5,7 @@ import { _a1__pathname__medium } from './fetch'
 import { _b, assign } from '@ctx-core/object'
 import { falsy } from '@ctx-core/function'
 export interface Writable__a1__pathname__medium__source extends Writable<falsy|string[]> {
-	reload__a1__pathname__medium__source:()=>void
+	reload__a1__pathname__medium__source:()=>Promise<void>
 }
 export const b__a1__pathname__medium__source = _b('__a1__pathname__medium__source', ()=>{
 	const __a1__pathname__medium__source = writable(null)
