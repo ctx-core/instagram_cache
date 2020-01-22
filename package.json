@@ -25,14 +25,14 @@
 		"chromedriver": "^79.0.0",
 		"command-line-args": "^5.1.1",
 		"esm": "^3.2.25",
-		"jsdom": "^16.0.0",
+		"jsdom": "^16.0.1",
 		"node-fetch": "^2.6.0",
 		"selenium-webdriver": "^4.0.0-alpha.5",
 		"url-parse": "^1.4.7"
 	},
 	"devDependencies": {
-		"svelte": "^3.17.1",
-		"typescript": "^3.7.4"
+		"svelte": "^3.17.2",
+		"typescript": "^3.7.5"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93",
 	"homepage": "https://github.com/ctx-core/instagram_cache#readme"
