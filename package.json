@@ -4,7 +4,7 @@
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
-	"version": "2.1.69",
+	"version": "2.1.70",
 	"scripts": {
 		"start": "./bin/instagram_cache.js",
 		"build": "npm run clean && npm run compile",
