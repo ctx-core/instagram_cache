@@ -25,7 +25,7 @@
 		"chromedriver": "^80.0.1",
 		"command-line-args": "^5.1.1",
 		"esm": "^3.2.25",
-		"jsdom": "^16.2.1",
+		"jsdom": "^16.2.2",
 		"node-fetch": "^3.0.0-beta.2",
 		"selenium-webdriver": "^4.0.0-alpha.5",
 		"url-parse": "^1.4.7"
