@@ -31,7 +31,7 @@
 		"url-parse": "^1.4.7"
 	},
 	"devDependencies": {
-		"svelte": "^3.22.2",
+		"svelte": "^3.22.3",
 		"typescript": "^3.9.2"
 	},
 	"gitHead": "c007e7e2a23226cf127a51ece019bcf859f0c8cc",
