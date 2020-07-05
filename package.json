@@ -32,7 +32,7 @@
 	},
 	"devDependencies": {
 		"svelte": "^3.23.2",
-		"typescript": "^3.9.5"
+		"typescript": "^3.9.6"
 	},
 	"gitHead": "db50a9aab8bd6542807276e51651bf2e6eb5b5a5",
 	"homepage": "https://github.com/ctx-core/instagram_cache#readme"
