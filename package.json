@@ -2,9 +2,9 @@
 	"name": "@ctx-core/instagram_cache",
 	"version": "2.1.128",
 	"description": "instagram scraper, account cache, & gallery component",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"start": "./bin/instagram_cache.js",
 		"build": "npm run clean && npm run compile",
