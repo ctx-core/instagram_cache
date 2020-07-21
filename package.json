@@ -22,7 +22,7 @@
 		"@ctx-core/instagram": "^1.1.122",
 		"@ctx-core/sleep": "^3.1.25",
 		"@ctx-core/store": "^15.0.3",
-		"chromedriver": "^83.0.1",
+		"chromedriver": "^84.0.0",
 		"command-line-args": "^5.1.1",
 		"esm": "^3.2.25",
 		"jsdom": "^16.3.0",
@@ -32,7 +32,7 @@
 	},
 	"devDependencies": {
 		"svelte": "^3.24.0",
-		"typescript": "^3.9.6"
+		"typescript": "^3.9.7"
 	},
 	"gitHead": "ccb0f5c672e247a62d9e3716b67533386bb3a87f",
 	"homepage": "https://github.com/ctx-core/instagram_cache#readme"
