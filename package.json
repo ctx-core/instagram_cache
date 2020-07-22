@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/instagram_cache",
-	"version": "2.1.148",
+	"version": "2.1.149",
 	"description": "instagram scraper, account cache, & gallery component",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -18,7 +18,7 @@
 		"@ctx-core/array": "^15.5.29",
 		"@ctx-core/dom": "^6.0.1",
 		"@ctx-core/fetch": "^6.1.158",
-		"@ctx-core/fontawesome": "^10.2.108",
+		"@ctx-core/fontawesome": "^10.2.109",
 		"@ctx-core/instagram": "^1.1.127",
 		"@ctx-core/sleep": "^3.1.26",
 		"@ctx-core/store": "^16.0.0",
