@@ -20,7 +20,7 @@
 		"@ctx-core/fetch": "^6.1.198",
 		"@ctx-core/fontawesome": "^10.2.140",
 		"@ctx-core/instagram": "^1.1.167",
-		"@ctx-core/sleep": "^4.0.0",
+		"@ctx-core/sleep": "^4.0.1",
 		"@ctx-core/store": "^16.2.4",
 		"chromedriver": "^85.0.0",
 		"command-line-args": "^5.1.1",
