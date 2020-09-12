@@ -3,7 +3,7 @@ import { _has__dom } from '@ctx-core/dom'
 import { _idx__prev, _idx__next } from '@ctx-core/array'
 import { _a1__pathname__medium } from './fetch'
 import { _b, assign } from '@ctx-core/object'
-import { falsy } from '@ctx-core/function'
+import type { falsy } from '@ctx-core/function'
 export interface Writable__a1__pathname__medium__source extends Writable<falsy|string[]> {
 	reload__a1__pathname__medium__source:()=>Promise<void>
 }
