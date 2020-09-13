@@ -2,32 +2,32 @@
 	"name": "@ctx-core/instagram_cache",
 	"version": "2.1.197",
 	"description": "instagram scraper, account cache, & gallery component",
+	"homepage": "https://github.com/ctx-core/instagram_cache#readme",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
 	"scripts": {
-		"start": "./bin/instagram_cache.js",
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
+		"exec": "$@",
 		"prepublishOnly": "npm run compile",
-		"exec": "$@"
+		"start": "./bin/instagram_cache.js"
 	},
 	"dependencies": {
 		"@aws-sdk/client-dynamodb-node": "preview",
 		"@aws-sdk/client-s3-node": "preview",
-		"@ctx-core/array": "^17.0.4",
-		"@ctx-core/dom": "^6.0.34",
-		"@ctx-core/fetch": "^6.1.202",
-		"@ctx-core/fontawesome": "^10.2.144",
-		"@ctx-core/instagram": "^1.1.171",
-		"@ctx-core/sleep": "^4.0.3",
-		"@ctx-core/store": "^16.2.8",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/dom": "workspace:*",
+		"@ctx-core/fetch": "workspace:*",
+		"@ctx-core/fontawesome": "workspace:*",
+		"@ctx-core/instagram": "workspace:*",
+		"@ctx-core/sleep": "workspace:*",
+		"@ctx-core/store": "workspace:*",
 		"chromedriver": "^85.0.1",
 		"command-line-args": "^5.1.1",
 		"esm": "^3.2.25",
 		"jsdom": "^16.4.0",
-		"node-fetch": "^3.0.0-beta.2",
 		"selenium-webdriver": "^4.0.0-alpha.5",
 		"url-parse": "^1.4.7"
 	},
@@ -35,6 +35,5 @@
 		"svelte": "^3.25.0",
 		"typescript": "^4.0.2"
 	},
-	"gitHead": "547859c8944b971f5fb08d218d5fd59ea886ff41",
-	"homepage": "https://github.com/ctx-core/instagram_cache#readme"
+	"gitHead": "547859c8944b971f5fb08d218d5fd59ea886ff41"
 }
