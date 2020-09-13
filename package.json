@@ -10,7 +10,8 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile"
+		"prepublishOnly": "npm run compile",
+		"exec": "$@"
 	},
 	"dependencies": {
 		"@aws-sdk/client-dynamodb-node": "preview",
@@ -34,6 +35,6 @@
 		"svelte": "^3.25.0",
 		"typescript": "^4.0.2"
 	},
-	"gitHead": "645be3dc75c277a920378947cd7aa4f1dcfb3733",
+	"gitHead": "547859c8944b971f5fb08d218d5fd59ea886ff41",
 	"homepage": "https://github.com/ctx-core/instagram_cache#readme"
 }
