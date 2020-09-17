@@ -3,12 +3,12 @@ import { _has__dom } from '@ctx-core/dom'
 import { _idx__prev, _idx__next } from '@ctx-core/array'
 import { _a1__pathname__medium } from './fetch'
 import { _b, assign } from '@ctx-core/object'
-import type { falsy } from '@ctx-core/function'
-export interface Writable__a1__pathname__medium__source extends Writable<falsy|string[]> {
+import type { maybe } from '@ctx-core/function'
+export interface type__a1__pathname__medium__source extends Writable<maybe<string[]>> {
 	reload__a1__pathname__medium__source:()=>Promise<void>
 }
 export const b__a1__pathname__medium__source = _b('__a1__pathname__medium__source', ()=>{
-	const __a1__pathname__medium__source = writable(null)
+	const __a1__pathname__medium__source = writable(null) as type__a1__pathname__medium__source
 	if (_has__dom()) {
 		reload__a1__pathname__medium__source()
 	}
@@ -24,12 +24,12 @@ export const __a1__pathname__medium__source = b__a1__pathname__medium__source()
 export const {
 	reload__a1__pathname__medium__source,
 } = __a1__pathname__medium__source
-export interface Writable__idx__pathname__medium extends Writable<number> {
+export interface type__idx__pathname__medium extends Writable<number> {
 	next__pathname__medium:()=>void
 	prev__pathname__medium:()=>void
 }
-export const b__idx__pathname__medium = _b<Writable__idx__pathname__medium>('__idx__pathname__medium', ()=>{
-	const __idx__pathname__medium = writable(0)
+export const b__idx__pathname__medium = _b<type__idx__pathname__medium>('__idx__pathname__medium', ()=>{
+	const __idx__pathname__medium = writable(0) as type__idx__pathname__medium
 	return assign(__idx__pathname__medium, {
 		next__pathname__medium,
 		prev__pathname__medium,
