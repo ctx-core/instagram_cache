@@ -21,7 +21,9 @@
     "@ctx-core/dom": "workspace:*",
     "@ctx-core/fetch": "workspace:*",
     "@ctx-core/fontawesome": "workspace:*",
+    "@ctx-core/function": "workspace:*",
     "@ctx-core/instagram": "workspace:*",
+    "@ctx-core/object": "workspace:*",
     "@ctx-core/sleep": "workspace:*",
     "@ctx-core/store": "workspace:*",
     "chromedriver": "^85.0.1",
@@ -29,9 +31,7 @@
     "esm": "^3.2.25",
     "jsdom": "^16.4.0",
     "selenium-webdriver": "^4.0.0-alpha.5",
-    "url-parse": "^1.4.7",
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/function": "workspace:*"
+    "url-parse": "^1.4.7"
   },
   "devDependencies": {
     "svelte": "~3.25.1",
