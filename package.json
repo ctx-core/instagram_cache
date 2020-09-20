@@ -1,41 +1,40 @@
 {
-  "name": "@ctx-core/instagram_cache",
-  "version": "3.0.3",
-  "description": "instagram scraper, account cache, & gallery component",
-  "homepage": "https://github.com/ctx-core/instagram_cache#readme",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile",
-    "start": "./bin/instagram_cache.js"
-  },
-  "dependencies": {
-    "@aws-sdk/client-dynamodb-node": "preview",
-    "@aws-sdk/client-s3-node": "preview",
-    "@ctx-core/array": "workspace:*",
-    "@ctx-core/dom": "workspace:*",
-    "@ctx-core/fetch": "workspace:*",
-    "@ctx-core/fontawesome": "workspace:*",
-    "@ctx-core/function": "workspace:*",
-    "@ctx-core/instagram": "workspace:*",
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/sleep": "workspace:*",
-    "@ctx-core/store": "workspace:*",
-    "chromedriver": "^85.0.1",
-    "command-line-args": "^5.1.1",
-    "esm": "^3.2.25",
-    "jsdom": "^16.4.0",
-    "selenium-webdriver": "^4.0.0-alpha.5",
-    "url-parse": "^1.4.7"
-  },
-  "devDependencies": {
-    "svelte": "~3.25.1",
-    "typescript": "^4.0.3"
-  },
-  "gitHead": "547859c8944b971f5fb08d218d5fd59ea886ff41"
+	"name": "@ctx-core/instagram_cache",
+	"version": "3.0.3",
+	"description": "instagram scraper, account cache, & gallery component",
+	"homepage": "https://github.com/ctx-core/instagram_cache#readme",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile",
+		"start": "./bin/instagram_cache.js"
+	},
+	"dependencies": {
+		"@aws-sdk/client-dynamodb-node": "preview",
+		"@aws-sdk/client-s3-node": "preview",
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/dom": "workspace:*",
+		"@ctx-core/fetch": "workspace:*",
+		"@ctx-core/fontawesome": "workspace:*",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/instagram": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/sleep": "workspace:*",
+		"@ctx-core/store": "workspace:*",
+		"chromedriver": "^85.0.1",
+		"command-line-args": "^5.1.1",
+		"esm": "^3.2.25",
+		"jsdom": "^16.4.0",
+		"selenium-webdriver": "^4.0.0-alpha.5",
+		"url-parse": "^1.4.7"
+	},
+	"devDependencies": {
+		"svelte": "~3.25.1",
+		"typescript": "^4.0.3"
+	}
 }
