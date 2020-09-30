@@ -1,5 +1,18 @@
 # @ctx-core/instagram_cache
 
+## 3.0.58
+
+### Patch Changes
+
+- fix: tsc build issues
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/store@23.0.3
+  - @ctx-core/dom@7.0.46
+  - @ctx-core/fetch@7.0.51
+  - @ctx-core/fontawesome@11.0.50
+  - @ctx-core/instagram@2.0.51
+
 ## 3.0.57
 
 ### Patch Changes

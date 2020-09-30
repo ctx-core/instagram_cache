@@ -1,4 +1,4 @@
-import { writable, derived, get, Writable } from 'svelte/store'
+import { writable, derived, get, Writable, Readable } from '@ctx-core/store'
 import { has__dom } from '@ctx-core/dom'
 import { _idx__prev, _idx__next } from '@ctx-core/array'
 import { _a1__pathname__medium } from './fetch'
@@ -28,8 +28,9 @@ export interface type__idx__pathname__medium extends Writable<number> {
 	next__pathname__medium:()=>void
 	prev__pathname__medium:()=>void
 }
-export const b__idx__pathname__medium = _b<type__idx__pathname__medium>('__idx__pathname__medium', ()=>{
+export const b__idx__pathname__medium = _b<type__idx__pathname__medium>('__idx__pathname__medium', (ctx)=>{
 	const __idx__pathname__medium = writable(0) as type__idx__pathname__medium
+	const __a1__pathname__medium = b__a1__pathname__medium(ctx)
 	return assign(__idx__pathname__medium, {
 		next__pathname__medium,
 		prev__pathname__medium,
@@ -57,7 +58,8 @@ export const b__a1__pathname__medium = _b('__a1__pathname__medium', ctx=>
 	derived(b__a1__pathname__medium__source(ctx),
 		a1__pathname__medium__source=>
 			a1__pathname__medium__source
-			|| []))
+			|| []) as Readable<string[]>
+)
 export const __a1__pathname__medium = b__a1__pathname__medium()
 export const b__pathname__medium = _b('__pathname__medium', ctx=>
 	derived([
