@@ -19,5 +19,5 @@ export declare const __idx__pathname__medium: type__idx__pathname__medium;
 export declare const next__pathname__medium: () => void, prev__pathname__medium: () => void;
 export declare const b__a1__pathname__medium: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => Readable<string[]>;
 export declare const __a1__pathname__medium: Readable<string[]>;
-export declare const b__pathname__medium: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => any;
-export declare const __pathname__medium: any;
+export declare const b__pathname__medium: (ctx?: object | undefined, opts?: import("@ctx-core/object")._be_opts_type | undefined) => Readable<string>;
+export declare const __pathname__medium: Readable<string>;
