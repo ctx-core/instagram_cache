@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 3.0.61
+
+### Patch Changes
+
+- flash updates
+
 ## 3.0.60
 
 ### Patch Changes
