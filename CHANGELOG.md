@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 3.0.66
+
+### Patch Changes
+
+- chromedriver: ^85.0.1 -> ^86.0.0
+
 ## 3.0.65
 
 ### Patch Changes
