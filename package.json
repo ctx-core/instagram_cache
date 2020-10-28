@@ -24,7 +24,7 @@
 		"@ctx-core/function": "workspace:^16.1.2",
 		"@ctx-core/instagram": "workspace:^2.0.64",
 		"@ctx-core/object": "workspace:^13.0.1",
-		"@ctx-core/sleep": "workspace:^5.0.1",
+		"@ctx-core/sleep": "workspace:^5.0.2",
 		"@ctx-core/store": "workspace:^23.0.9",
 		"chromedriver": "^86.0.0",
 		"command-line-args": "^5.1.1",
