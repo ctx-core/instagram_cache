@@ -1,12 +1,12 @@
+import { _medium } from '@ctx-core/instagram'
 import { DynamoDBClient } from '@aws-sdk/client-dynamodb-node/DynamoDBClient'
 import { PutItemCommand } from '@aws-sdk/client-dynamodb-node/commands/PutItemCommand'
-import { _medium } from '@ctx-core/instagram/fetch'
-import { _a1__pathname__medium } from './fetch'
-import { _created_time } from './lib'
+import { _created_time } from './_created_time'
+import { _medium_pathname_a1 } from './_medium_pathname_a1'
 const dynamoDB = new DynamoDBClient({})
-const TableName = 'media__instagram'
+const TableName = 'instagram_media'
 export async function put_all_media() {
-	const current_medium_pathname_a1 = await _a1__pathname__medium()
+	const current_medium_pathname_a1 = await _medium_pathname_a1()
 	const promise_a1 = [] as Promise<void>[]
 	for (let i = 0; i < current_medium_pathname_a1.length; i++) {
 		const pathname = current_medium_pathname_a1[i]

@@ -1,14 +1,7 @@
-import { sleep } from '@ctx-core/sleep'
 import webdriver from 'selenium-webdriver'
-import 'chromedriver'
-import { put__a1__pathname__medium } from './s3'
-import { _a1__pathname__medium } from './fetch'
-import JSDOM from 'jsdom'
-type Opts__a1__href__medium = {
-	INSTAGRAM_NAME?:string
-	reload?:boolean
-}
-export async function _a1__href__medium(opts:Opts__a1__href__medium = {}) {
+import { sleep } from '@ctx-core/sleep'
+import { _medium_pathname_a1 } from './_medium_pathname_a1'
+export async function _medium_href_a1(opts:_medium_href_a1_opts_type = {}) {
 	const {
 		INSTAGRAM_NAME = process.env.INSTAGRAM_NAME,
 		reload,
@@ -16,7 +9,7 @@ export async function _a1__href__medium(opts:Opts__a1__href__medium = {}) {
 	const a1__pathname__medium__current =
 		reload
 		? []
-		: await _a1__pathname__medium()
+		: await _medium_pathname_a1()
 	const set__media__current = new Set(a1__pathname__medium__current)
 	const Capabilities__chrome = webdriver.Capabilities.chrome()
 	Capabilities__chrome.set('chromeOptions', { args: ['--headless'] })
@@ -69,15 +62,10 @@ return JSON.stringify(
 		return false
 	}
 }
-export const _arr__href__medium = _a1__href__medium
-export async function put__cache__scrape__webdriver(options = {}) {
-	const a1__pathname__medium = await _a1__href__medium(options)
-	console.info('a1__pathname__medium.length', a1__pathname__medium.length)
-	await put__a1__pathname__medium(a1__pathname__medium)
+interface _medium_href_a1_opts_type {
+	INSTAGRAM_NAME?:string
+	reload?:boolean
 }
-export function _created_time(medium) {
-	const dom = new JSDOM(medium.html)
-	const time = dom.window.document.querySelector('time')
-	const datetime = time.getAttribute('datetime')
-	return new Date(datetime).getTime()
+export {
+	_medium_href_a1 as _arr__href__medium
 }
