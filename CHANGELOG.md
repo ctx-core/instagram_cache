@@ -1,5 +1,24 @@
 # @ctx-core/instagram_cache
 
+## 3.1.15
+
+### Patch Changes
+
+- interface instead of type: fetch_medium_pathname_a1_opts_type,medium_pathname_a1_opts_type
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+  - @ctx-core/fontawesome@11.0.78
+  - @ctx-core/store@23.1.8
+  - @ctx-core/dom@7.1.19
+  - @ctx-core/fetch@7.0.88
+  - @ctx-core/instagram@2.0.88
+
 ## 3.1.14
 
 ### Patch Changes
