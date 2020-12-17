@@ -1,5 +1,22 @@
 # @ctx-core/instagram_cache
 
+## 4.0.0
+
+### Major Changes
+
+- Gallery\_\_Instagram=>InstagramGallery
+
+### Patch Changes
+
+- using export as instead of export const
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.8
+  - @ctx-core/fontawesome@11.0.81
+  - @ctx-core/store@23.1.10
+  - @ctx-core/dom@7.1.21
+  - @ctx-core/fetch@7.0.90
+  - @ctx-core/instagram@2.0.90
+
 ## 3.1.17
 
 ### Patch Changes
