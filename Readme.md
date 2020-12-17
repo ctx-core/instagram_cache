@@ -2,7 +2,7 @@
 
 Caches the paths to the media in an instagram account to S3.
 
-Also contains a `Gallery__Instagram` svelte component to navigate through the media.
+Also contains a `InstagramGallery` svelte component to navigate through the media.
 
 ## Usage
 
@@ -13,19 +13,19 @@ npm install @ctx-core/instagram_cache
 cache-instagram.js
 ```
 
-### Gallery__Instagram
+### InstagramGallery
 
 ```html
 <script>
-	import Gallery__Instagram from '@ctx-core/instagram_cache/Gallery__Instagram.svelte'
+	import InstagramGallery from '@ctx-core/instagram_cache/InstagramGallery.svelte'
 </script>
 
-<Gallery__Instagram></Gallery__Instagram>
+<InstagramGallery></InstagramGallery>
 
 <style type="text/scss">
-	@import "~@ctx-core/instagram_cache/Gallery__Instagram";
+	@import "~@ctx-core/instagram_cache/InstagramGallery";
 	@import "your-css/variables";
-	@include Gallery__Instagram(
+	@include InstagramGallery(
 		$fill__Icon: mix(white, $color-primary-lighter, 75%),
 		$fill__hover__Icon: white
 	)

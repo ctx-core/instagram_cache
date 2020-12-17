@@ -1,9 +1,9 @@
-@mixin Gallery__Instagram(
-	$root: '.Gallery__Instagram',
+@mixin InstagramGallery(
+	$root: '.InstagramGallery',
 	$fill__Icon: gray,
 	$fill__hover__Icon: white
 ) {
-	:global(.Gallery__Instagram) {
+	:global(.InstagramGallery) {
 		display: flex;
 		align-items: center;
 		justify-content: center;

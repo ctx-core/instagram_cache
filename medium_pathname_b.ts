@@ -9,4 +9,5 @@ export const medium_pathname_b = _b('medium_pathname', ctx=>
 		],
 		([$medium_pathname_a1, $medium_pathname_idx])=>
 			$medium_pathname_a1[$medium_pathname_idx]
-	))
+	)
+)

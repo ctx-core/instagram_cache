@@ -4,6 +4,7 @@ export * from './_medium_pathname_a1';
 export * from './dynamodb';
 export * from './fetch_medium_pathname_a1';
 export * from './get_medium_pathname_a1';
+export * from './InstagramGallery';
 export * from './medium_pathname_a1_b';
 export * from './medium_pathname_a1_opts_type';
 export * from './medium_pathname_b';

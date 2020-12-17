@@ -10,7 +10,7 @@ export const source_medium_pathname_a1_b = _b('source_medium_pathname_a1', ()=>{
 	}
 	return assign(source_medium_pathname_a1, {
 		reload_source_medium_pathname_a1,
-	})
+	}) as source_medium_pathname_a1_type
 	async function reload_source_medium_pathname_a1() {
 		const medium_pathname_a1 = await _medium_pathname_a1()
 		source_medium_pathname_a1.set(medium_pathname_a1)
