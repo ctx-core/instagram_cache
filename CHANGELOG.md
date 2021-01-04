@@ -1,5 +1,18 @@
 # @ctx-core/instagram_cache
 
+## 4.0.27
+
+### Patch Changes
+
+- svelte: 3.31.1 -> 3.31.2
+- chromedriver: ^87.0.4 -> ^87.0.5
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@11.0.99
+  - @ctx-core/store@23.1.25
+  - @ctx-core/dom@7.1.38
+  - @ctx-core/fetch@7.1.16
+  - @ctx-core/instagram@2.0.114
+
 ## 4.0.26
 
 ### Patch Changes
