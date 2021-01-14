@@ -1,6 +1,5 @@
 import { _medium } from '@ctx-core/instagram'
-import { DynamoDBClient } from '@aws-sdk/client-dynamodb-node/DynamoDBClient'
-import { PutItemCommand } from '@aws-sdk/client-dynamodb-node/commands/PutItemCommand'
+import { DynamoDBClient, PutItemCommand } from '@aws-sdk/client-dynamodb'
 import { _created_time } from './_created_time'
 import { _medium_pathname_a1 } from './_medium_pathname_a1'
 const dynamoDB = new DynamoDBClient({})
