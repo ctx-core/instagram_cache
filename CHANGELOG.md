@@ -1,5 +1,12 @@
 # @ctx-core/instagram_cache
 
+## 4.0.51
+
+### Patch Changes
+
+- chromedriver: ^87.0.7 -> ^88.0.0
+  - @ctx-core/fontawesome@11.0.119
+
 ## 4.0.50
 
 ### Patch Changes
