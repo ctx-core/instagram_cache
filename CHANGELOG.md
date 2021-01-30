@@ -1,5 +1,19 @@
 # @ctx-core/instagram_cache
 
+## 4.0.53
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.4.0 -> ^3.4.1
+- @aws-sdk/client-dynamodb: ^3.4.0 -> ^3.4.1
+- svelte: 3.32.0 -> 3.32.1
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@11.0.121
+  - @ctx-core/store@23.4.3
+  - @ctx-core/dom@7.1.49
+  - @ctx-core/fetch@7.1.29
+  - @ctx-core/instagram@2.0.127
+
 ## 4.0.52
 
 ### Patch Changes
