@@ -1,8 +1,8 @@
 <script>
 import FA_chevron_left_solid from '@ctx-core/fontawesome/ui/FA-chevron-left-solid.svelte'
 import FA_chevron_right_solid from '@ctx-core/fontawesome/ui/FA-chevron-right-solid.svelte'
-import { medium_pathname_b } from './medium_pathname_b'
-import { medium_pathname_idx_b } from './medium_pathname_idx_b'
+import { medium_pathname_b } from '../../src'
+import { medium_pathname_idx_b } from '../../src'
 export let ctx
 const medium_pathname = medium_pathname_b(ctx)
 const medium_pathname_idx = medium_pathname_idx_b(ctx)
