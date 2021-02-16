@@ -1,5 +1,12 @@
 # @ctx-core/instagram_cache
 
+## 5.1.20
+
+### Patch Changes
+
+- @ctx-core/fetch@8.0.21
+- @ctx-core/instagram@3.0.21
+
 ## 5.1.19
 
 ### Patch Changes
