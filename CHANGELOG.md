@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 5.1.21
+
+### Patch Changes
+
+- url-parse: ^1.4.7 -> ^1.5.0
+
 ## 5.1.20
 
 ### Patch Changes
