@@ -1,5 +1,15 @@
 # @ctx-core/instagram_cache
 
+## 5.1.45
+
+### Patch Changes
+
+- jsdom: ^16.4.0 -> ^16.5.0
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@12.0.41
+  - @ctx-core/fetch@8.0.40
+  - @ctx-core/instagram@3.0.40
+
 ## 5.1.44
 
 ### Patch Changes
