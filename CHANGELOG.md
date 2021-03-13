@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 5.1.52
+
+### Patch Changes
+
+- jsdom: ^16.5.0 -> ^16.5.1
+
 ## 5.1.51
 
 ### Patch Changes
