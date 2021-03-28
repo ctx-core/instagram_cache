@@ -1,5 +1,17 @@
 # @ctx-core/instagram_cache
 
+## 5.1.54
+
+### Patch Changes
+
+- 39607cca5: jsdom: ^16.5.1 -> ^16.5.2
+- 39607cca5: @aws-sdk/client-s3: ^3.8.1 -> ^3.10.0
+- 39607cca5: @aws-sdk/client-dynamodb: ^3.8.1 -> ^3.10.0
+- Updated dependencies [39607cca5]
+  - @ctx-core/fontawesome@12.0.48
+  - @ctx-core/fetch@8.0.46
+  - @ctx-core/instagram@3.0.46
+
 ## 5.1.53
 
 ### Patch Changes
