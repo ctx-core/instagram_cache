@@ -1,5 +1,21 @@
 # @ctx-core/instagram_cache
 
+## 5.1.55
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.1
+  - @ctx-core/dom@8.2.13
+  - @ctx-core/fetch@8.0.47
+  - @ctx-core/fontawesome@12.0.49
+  - @ctx-core/function@17.4.2
+  - @ctx-core/instagram@3.0.47
+  - @ctx-core/object@17.4.1
+  - @ctx-core/sleep@6.0.6
+  - @ctx-core/store@24.1.14
+
 ## 5.1.54
 
 ### Patch Changes
