@@ -1,5 +1,15 @@
 # @ctx-core/instagram_cache
 
+## 5.1.67
+
+### Patch Changes
+
+- chromedriver: ^89.0.0 -> ^90.0.0
+- @aws-sdk/client-s3: ^3.12.0 -> ^3.13.0
+- @aws-sdk/client-dynamodb: ^3.12.0 -> ^3.13.0
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@12.0.57
+
 ## 5.1.66
 
 ### Patch Changes
