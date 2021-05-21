@@ -1,7 +1,9 @@
-import type { maybe } from '@ctx-core/function';
 import { Writable } from '@ctx-core/store';
-export declare const source_medium_pathname_a1_b: import("@ctx-core/object").Be<source_medium_pathname_a1_type, object>;
-export declare type $source_medium_pathname_a1_type = maybe<string[]>;
-export interface source_medium_pathname_a1_type extends Writable<$source_medium_pathname_a1_type> {
+export interface source_medium_pathname_a1_Ctx {
+    source_medium_pathname_a1?: source_medium_pathname_a1_T;
+}
+export declare const source_medium_pathname_a1_b: import("@ctx-core/object").Be<source_medium_pathname_a1_Ctx, "source_medium_pathname_a1">;
+export declare type $source_medium_pathname_a1_T = string[] | undefined;
+export interface source_medium_pathname_a1_T extends Writable<$source_medium_pathname_a1_T> {
     reload_source_medium_pathname_a1: () => Promise<void>;
 }
