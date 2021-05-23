@@ -1,9 +1,9 @@
 import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3'
-import type { medium_pathname_a1_opts_type } from './medium_pathname_a1_opts_type'
+import type { medium_pathname_a1_opts_T } from './medium_pathname_a1_opts_T'
 const Bucket = process.env.S3_BUCKET as string
 export async function s3_put_medium_pathname_a1(
 	medium_pathname_a1:string[],
-	opts:medium_pathname_a1_opts_type = {}
+	opts:medium_pathname_a1_opts_T = {}
 ) {
 	const {
 		region = 'us-east-1',

@@ -2,11 +2,9 @@ import { _b, assign } from '@ctx-core/object'
 import { has_dom } from '@ctx-core/dom'
 import { writable, Writable } from '@ctx-core/store'
 import { _medium_pathname_a1 } from './_medium_pathname_a1'
+import type { instagram_cache_Ctx } from './instagram_cache_Ctx'
 const key = 'source_medium_pathname_a1'
-export interface source_medium_pathname_a1_Ctx {
-	source_medium_pathname_a1?:source_medium_pathname_a1_T
-}
-export const source_medium_pathname_a1_b = _b<source_medium_pathname_a1_Ctx, typeof key>(key, ()=>{
+export const source_medium_pathname_a1_b = _b<instagram_cache_Ctx, typeof key>(key, ()=>{
 	const source_medium_pathname_a1 = writable(undefined) as source_medium_pathname_a1_T
 	if (has_dom) {
 		reload_source_medium_pathname_a1().then()

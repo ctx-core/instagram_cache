@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 5.3.0
+
+### Minor Changes
+
+- instagram_cache_Ctx
+
 ## 5.2.9
 
 ### Patch Changes
@@ -2002,7 +2008,7 @@
 
 ### Patch Changes
 
-- interface instead of type: fetch_medium_pathname_a1_opts_type,medium_pathname_a1_opts_type
+- interface instead of type: fetch_medium_pathname_a1_opts_T,medium_pathname_a1_opts_T
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
