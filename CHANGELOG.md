@@ -1,5 +1,21 @@
 # @ctx-core/instagram_cache
 
+## 5.4.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.1
+  - @ctx-core/dom@8.4.1
+  - @ctx-core/fetch@8.2.1
+  - @ctx-core/fontawesome@12.2.1
+  - @ctx-core/function@17.10.1
+  - @ctx-core/instagram@3.2.1
+  - @ctx-core/object@18.1.1
+  - @ctx-core/sleep@6.2.1
+  - @ctx-core/store@24.9.1
+
 ## 5.4.0
 
 ### Minor Changes
