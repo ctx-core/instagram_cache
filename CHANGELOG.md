@@ -1,5 +1,16 @@
 # @ctx-core/instagram_cache
 
+## 5.3.1
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.8
+  - @ctx-core/dom@8.3.8
+  - @ctx-core/fetch@8.1.9
+  - @ctx-core/store@24.8.8
+
 ## 5.3.0
 
 ### Minor Changes
