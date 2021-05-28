@@ -23,7 +23,6 @@ export const medium_pathname_idx_b = _b<instagram_cache_Ctx, typeof key>(key, ct
 			medium_pathname_idx=>_prev_idx(length, medium_pathname_idx)
 		)
 	}
-	return medium_pathname_idx
 })
 export type $medium_pathname_idx_T = number
 export interface medium_pathname_idx_T extends Writable$<$medium_pathname_idx_T> {
