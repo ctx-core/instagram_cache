@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 5.5.9
+
+### Patch Changes
+
+- fix: \_h_b_h: return value
+
 ## 5.5.8
 
 ### Patch Changes
