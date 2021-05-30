@@ -1,7 +1,7 @@
 import webdriver from 'selenium-webdriver'
 import { sleep } from '@ctx-core/sleep'
-import { _medium_pathname_a1 } from './_medium_pathname_a1'
-export async function _medium_href_a1(opts:_medium_href_a1_opts_type = {}) {
+import { medium_pathname_a } from './medium_pathname_a'
+export async function medium_href_a_(opts:_medium_href_a1_opts_type = {}) {
 	const {
 		INSTAGRAM_NAME = process.env.INSTAGRAM_NAME,
 		reload,
@@ -9,7 +9,7 @@ export async function _medium_href_a1(opts:_medium_href_a1_opts_type = {}) {
 	const current_medium_pathname_a1 =
 		reload
 		? []
-		: await _medium_pathname_a1()
+		: await medium_pathname_a()
 	const current_media_set = new Set(current_medium_pathname_a1)
 	const chrome_Capabilities = webdriver.Capabilities.chrome()
 	chrome_Capabilities.set('chromeOptions', { args: ['--headless'] })
@@ -67,5 +67,5 @@ interface _medium_href_a1_opts_type {
 	reload?:boolean
 }
 export {
-	_medium_href_a1 as _arr__href__medium
+	medium_href_a_ as _arr__href__medium
 }

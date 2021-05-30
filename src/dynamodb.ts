@@ -1,18 +1,18 @@
 import { AttributeValue, DynamoDBClient, PutItemCommand } from '@aws-sdk/client-dynamodb'
-import { _medium } from '@ctx-core/instagram'
-import { _created_time } from './_created_time'
-import { _medium_pathname_a1 } from './_medium_pathname_a1'
+import { medium_ } from '@ctx-core/instagram'
+import { created_time_ } from './created_time_'
+import { medium_pathname_a } from './medium_pathname_a'
 const dynamoDB = new DynamoDBClient({})
 const TableName = 'instagram_media'
 export async function put_all_media() {
-	const current_medium_pathname_a1 = await _medium_pathname_a1()
-	const promise_a1 = [] as Promise<void>[]
+	const current_medium_pathname_a1 = await medium_pathname_a()
+	const promise_a = [] as Promise<void>[]
 	for (let i = 0; i < current_medium_pathname_a1.length; i++) {
 		const pathname = current_medium_pathname_a1[i]
 		const Item = await _Item(pathname)
-		promise_a1.push(put(pathname, Item))
+		promise_a.push(put(pathname, Item))
 	}
-	return await Promise.all(promise_a1)
+	return await Promise.all(promise_a)
 	async function put(_pathname:string, Item:dynamodb_Item_I|undefined) {
 		const putItemCommand = new PutItemCommand({
 			TableName,
@@ -30,8 +30,8 @@ export async function put_all_media() {
 	}
 }
 export async function _Item(pathname:string):Promise<dynamodb_Item_I> {
-	const medium = await _medium(pathname)
-	const created_time:number = _created_time(medium)
+	const medium = await medium_(pathname)
+	const created_time:number = created_time_(medium)
 	const info:Record<string, any> = {}
 	copy('title')
 	copy('thumbnail_url')

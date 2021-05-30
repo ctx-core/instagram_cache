@@ -1,5 +1,5 @@
 import { fetch } from '@ctx-core/fetch'
-export function fetch_medium_pathname_a1(opts:fetch_medium_pathname_a1_opts_T = {}) {
+export function fetch_medium_pathname_a(opts:fetch_medium_pathname_a1_opts_T = {}) {
 	const {
 		Bucket = process.env.S3_BUCKET,
 		MEDIUM_PATHNAME_A1_KEY = process.env.MEDIUM_PATHNAME_A1_KEY,
@@ -14,5 +14,5 @@ export interface fetch_medium_pathname_a1_opts_T {
 	MEDIUM_PATHNAME_A1_KEY?:string
 }
 export {
-	fetch_medium_pathname_a1 as fetch__arr__pathname__medium
+	fetch_medium_pathname_a as fetch__arr__pathname__medium
 }
