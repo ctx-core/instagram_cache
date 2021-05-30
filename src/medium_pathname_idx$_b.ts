@@ -1,5 +1,5 @@
 import { _b, assign } from '@ctx-core/object'
-import { _next_idx, _prev_idx } from '@ctx-core/array'
+import { next_idx_, prev_idx_ } from '@ctx-core/array'
 import { writable$, Writable$ } from '@ctx-core/store'
 import { medium_pathname_a$_b } from './medium_pathname_a$_b'
 import type { instagram_cache_Ctx } from './instagram_cache_Ctx'
@@ -14,13 +14,13 @@ export const medium_pathname_idx$_b = _b<instagram_cache_Ctx, typeof key>(key, c
 	function next_medium_pathname() {
 		const { length } = medium_pathname_a1.$
 		medium_pathname_idx.update(
-			medium_pathname_idx=>_next_idx(length, medium_pathname_idx)
+			medium_pathname_idx=>next_idx_(length, medium_pathname_idx)
 		)
 	}
 	function prev_medium_pathname() {
 		const { length } = medium_pathname_a1.$
 		medium_pathname_idx.update(
-			medium_pathname_idx=>_prev_idx(length, medium_pathname_idx)
+			medium_pathname_idx=>prev_idx_(length, medium_pathname_idx)
 		)
 	}
 })
