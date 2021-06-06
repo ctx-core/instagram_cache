@@ -1,5 +1,22 @@
 # @ctx-core/instagram_cache
 
+## 6.0.27
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/dom@9.0.9
+  - @ctx-core/fetch@9.0.5
+  - @ctx-core/fontawesome@13.0.16
+  - @ctx-core/function@18.1.2
+  - @ctx-core/instagram@4.0.1
+  - @ctx-core/object@19.1.2
+  - @ctx-core/sleep@6.3.2
+  - @ctx-core/store@25.1.12
+  - @ctx-core/ctx-core-package-tools@7.0.13
+
 ## 6.0.26
 
 ### Patch Changes

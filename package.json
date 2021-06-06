@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/instagram_cache",
-	"version": "6.0.26",
+	"version": "6.0.27",
 	"description": "instagram scraper, account cache, & gallery component",
 	"homepage": "https://github.com/ctx-core/instagram_cache#readme",
 	"main": "./dist/index.js",
@@ -8,7 +8,7 @@
 	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "npm run clean && npm run generate_ctx_I_file && npm run compile && npm run symlink",
-		"clean": "rm -f tsconfig.tsbuildinfo",
+		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
 		"symlink": "./node_modules/.bin/symlink_src_assets_to_dist .",
 		"exec": "$@",
@@ -19,16 +19,16 @@
 	"dependencies": {
 		"@aws-sdk/client-dynamodb": "^3.18.0",
 		"@aws-sdk/client-s3": "^3.18.0",
-		"@ctx-core/array": "workspace:^21.2.5",
-		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.12",
-		"@ctx-core/dom": "workspace:^9.0.8",
-		"@ctx-core/fetch": "workspace:^9.0.4",
-		"@ctx-core/fontawesome": "workspace:^13.0.15",
-		"@ctx-core/function": "workspace:^18.1.1",
-		"@ctx-core/instagram": "workspace:^4.0.0",
-		"@ctx-core/object": "workspace:^19.1.1",
-		"@ctx-core/sleep": "workspace:^6.3.1",
-		"@ctx-core/store": "workspace:^25.1.11",
+		"@ctx-core/array": "workspace:^21.2.6",
+		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.13",
+		"@ctx-core/dom": "workspace:^9.0.9",
+		"@ctx-core/fetch": "workspace:^9.0.5",
+		"@ctx-core/fontawesome": "workspace:^13.0.16",
+		"@ctx-core/function": "workspace:^18.1.2",
+		"@ctx-core/instagram": "workspace:^4.0.1",
+		"@ctx-core/object": "workspace:^19.1.2",
+		"@ctx-core/sleep": "workspace:^6.3.2",
+		"@ctx-core/store": "workspace:^25.1.12",
 		"chromedriver": "^91.0.0",
 		"command-line-args": "^5.1.1",
 		"esm": "^3.2.25",
@@ -38,7 +38,7 @@
 		"url-parse": "^1.5.1"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^5.1.2",
+		"@ctx-core/dev-tools": "workspace:^5.1.3",
 		"@types/jsdom": "^16.2.10",
 		"@types/selenium-webdriver": "^4.0.13",
 		"typescript": "^4.3.2"
