@@ -26,7 +26,7 @@
 		"@ctx-core/fontawesome": "workspace:^13.0.20",
 		"@ctx-core/function": "workspace:^18.1.3",
 		"@ctx-core/instagram": "workspace:^4.0.2",
-		"@ctx-core/object": "workspace:^19.1.4",
+		"@ctx-core/object": "workspace:^19.1.5",
 		"@ctx-core/sleep": "workspace:^6.3.3",
 		"@ctx-core/store": "workspace:^25.1.17",
 		"chromedriver": "^91.0.0",
