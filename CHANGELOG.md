@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 6.0.36
+
+### Patch Changes
+
+- fix: B: inferred type issue
+
 ## 6.0.35
 
 ### Patch Changes

@@ -1,10 +1,10 @@
-import { be_, assign } from '@ctx-core/object'
+import { B, be_, assign } from '@ctx-core/object'
 import { next_idx_, prev_idx_ } from '@ctx-core/array'
 import { writable$, Writable$ } from '@ctx-core/store'
 import { medium_pathname_a$_b } from './medium_pathname_a$_b'
 import type { instagram_cache_Ctx } from './instagram_cache_Ctx'
 const key = 'medium_pathname_idx$'
-export const medium_pathname_idx$_b = be_<instagram_cache_Ctx, typeof key>(key, ctx=>{
+export const medium_pathname_idx$_b:B<instagram_cache_Ctx, typeof key> = be_(key, ctx=>{
 	const medium_pathname_idx = writable$(0) as medium_pathname_idx$_T
 	const medium_pathname_a1 = medium_pathname_a$_b(ctx)
 	return assign(medium_pathname_idx, {
