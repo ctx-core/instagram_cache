@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 7.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+
 ## 7.0.0
 
 ### Major Changes
