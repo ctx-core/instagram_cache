@@ -1,16 +1,16 @@
 import webdriver from 'selenium-webdriver'
 import { sleep } from '@ctx-core/sleep'
-import { medium_pathname_a } from './medium_pathname_a'
-export async function medium_href_a_(opts:_medium_href_a1_opts_type = {}) {
+import { medium_pathname_a_ } from './medium_pathname_a_'
+export async function medium_href_a_(opts:medium_href_a__opts_T = {}) {
 	const {
 		INSTAGRAM_NAME = process.env.INSTAGRAM_NAME,
 		reload,
 	} = opts
-	const current_medium_pathname_a1 =
+	const current_medium_pathname_a =
 		reload
 		? []
-		: await medium_pathname_a()
-	const current_media_set = new Set(current_medium_pathname_a1)
+		: await medium_pathname_a_()
+	const current_media_set = new Set(current_medium_pathname_a)
 	const chrome_Capabilities = webdriver.Capabilities.chrome()
 	chrome_Capabilities.set('chromeOptions', { args: ['--headless'] })
 	const driver = new webdriver.Builder()
@@ -18,11 +18,11 @@ export async function medium_href_a_(opts:_medium_href_a1_opts_type = {}) {
 		.withCapabilities(chrome_Capabilities)
 		.build()
 	await driver.get(`https://www.instagram.com/${INSTAGRAM_NAME}/`)
-	let medium_href_a1 = current_medium_pathname_a1
-	let iteration = { href_a1_length: 0, iteration_count: 0 }
+	let medium_href_a = current_medium_pathname_a
+	let iteration = { href_a_length: 0, iteration_count: 0 }
 	do {
 		await driver.executeScript('window.scrollBy(0, window.innerHeight)')
-		const href_a1 = JSON.parse(await driver.executeScript(`
+		const href_a = JSON.parse(await driver.executeScript(`
 function compact(array) {
 	if (!array) return array
 	for (let i = array.length; i >= 0; --i) {
@@ -40,29 +40,29 @@ return JSON.stringify(
 	)
 )
 		`.trim()))
-		medium_href_a1 = [...new Set([...href_a1, ...medium_href_a1])]
-		if (iteration.href_a1_length != medium_href_a1.length) {
+		medium_href_a = [...new Set([...href_a, ...medium_href_a])]
+		if (iteration.href_a_length != medium_href_a.length) {
 			iteration = {
-				href_a1_length: medium_href_a1.length,
+				href_a_length: medium_href_a.length,
 				iteration_count: 0
 			}
 		} else {
 			iteration.iteration_count += 1
 		}
-		if (_current_set_any(href_a1)) break
+		if (current_set_any_(href_a)) break
 		await sleep(500)
-		console.debug({ 'medium_href_a1.length': medium_href_a1.length })
+		console.debug({ 'medium_href_a.length': medium_href_a.length })
 	} while (iteration.iteration_count < 10)
 	await driver.quit()
-	return medium_href_a1
-	function _current_set_any(href_a1:string[]) {
-		for (let i = 0; i < href_a1.length; i++) {
-			if (current_media_set.has(href_a1[i])) return true
+	return medium_href_a
+	function current_set_any_(href_a:string[]) {
+		for (let i = 0; i < href_a.length; i++) {
+			if (current_media_set.has(href_a[i])) return true
 		}
 		return false
 	}
 }
-interface _medium_href_a1_opts_type {
+interface medium_href_a__opts_T {
 	INSTAGRAM_NAME?:string
 	reload?:boolean
 }

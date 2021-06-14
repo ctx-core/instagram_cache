@@ -1,1 +1,0 @@
-../../../src/ui/InstagramGallery/InstagramGallery.svelte

@@ -1,5 +1,25 @@
 # @ctx-core/instagram_cache
 
+## 7.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.0
+  - @ctx-core/dom@10.0.0
+  - @ctx-core/fetch@10.0.0
+  - @ctx-core/fontawesome@14.0.0
+  - @ctx-core/function@19.0.0
+  - @ctx-core/instagram@5.0.0
+  - @ctx-core/object@20.0.0
+  - @ctx-core/sleep@7.0.0
+  - @ctx-core/store@26.0.0
+  - @ctx-core/ctx-core-package-tools@8.0.0
+
 ## 6.0.39
 
 ### Patch Changes
@@ -2572,7 +2592,7 @@
 
 ### Patch Changes
 
-- interface instead of type: fetch_medium_pathname_a1_opts_T,medium_pathname_a1_opts_T
+- interface instead of type: fetch_medium_pathname_a_opts_T,medium_pathname_a_opts_T
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]

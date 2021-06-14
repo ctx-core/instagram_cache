@@ -6,19 +6,19 @@ import type { instagram_cache_Ctx } from './instagram_cache_Ctx'
 const key = 'medium_pathname_idx$'
 export const medium_pathname_idx$_b:B<instagram_cache_Ctx, typeof key> = be_(key, ctx=>{
 	const medium_pathname_idx = writable$(0) as medium_pathname_idx$_T
-	const medium_pathname_a1 = medium_pathname_a$_b(ctx)
+	const medium_pathname_a = medium_pathname_a$_b(ctx)
 	return assign(medium_pathname_idx, {
 		next_medium_pathname,
 		prev_medium_pathname,
 	})
 	function next_medium_pathname() {
-		const { length } = medium_pathname_a1.$
+		const { length } = medium_pathname_a.$
 		medium_pathname_idx.update(
 			medium_pathname_idx=>next_idx_(length, medium_pathname_idx)
 		)
 	}
 	function prev_medium_pathname() {
-		const { length } = medium_pathname_a1.$
+		const { length } = medium_pathname_a.$
 		medium_pathname_idx.update(
 			medium_pathname_idx=>prev_idx_(length, medium_pathname_idx)
 		)

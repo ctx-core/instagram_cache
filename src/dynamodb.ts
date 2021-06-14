@@ -1,14 +1,14 @@
 import { AttributeValue, DynamoDBClient, PutItemCommand } from '@aws-sdk/client-dynamodb'
 import { medium_ } from '@ctx-core/instagram'
 import { created_time_ } from './created_time_'
-import { medium_pathname_a } from './medium_pathname_a'
+import { medium_pathname_a_ } from './medium_pathname_a_'
 const dynamoDB = new DynamoDBClient({})
 const TableName = 'instagram_media'
 export async function put_all_media() {
-	const current_medium_pathname_a1 = await medium_pathname_a()
+	const current_medium_pathname_a = await medium_pathname_a_()
 	const promise_a = [] as Promise<void>[]
-	for (let i = 0; i < current_medium_pathname_a1.length; i++) {
-		const pathname = current_medium_pathname_a1[i]
+	for (let i = 0; i < current_medium_pathname_a.length; i++) {
+		const pathname = current_medium_pathname_a[i]
 		const Item = await _Item(pathname)
 		promise_a.push(put(pathname, Item))
 	}
