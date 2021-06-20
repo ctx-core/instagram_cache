@@ -1,5 +1,22 @@
 # @ctx-core/instagram_cache
 
+## 7.0.17
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.8
+  - @ctx-core/dom@10.0.7
+  - @ctx-core/fetch@10.0.11
+  - @ctx-core/fontawesome@14.0.8
+  - @ctx-core/function@19.1.6
+  - @ctx-core/instagram@5.0.10
+  - @ctx-core/object@20.0.7
+  - @ctx-core/sleep@7.0.6
+  - @ctx-core/store@26.0.8
+  - @ctx-core/ctx-core-package-tools@8.0.7
+
 ## 7.0.16
 
 ### Patch Changes
