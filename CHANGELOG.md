@@ -1,5 +1,21 @@
 # @ctx-core/instagram_cache
 
+## 7.0.16
+
+### Patch Changes
+
+- "prepare": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.7
+  - @ctx-core/dom@10.0.6
+  - @ctx-core/fetch@10.0.10
+  - @ctx-core/fontawesome@14.0.7
+  - @ctx-core/function@19.1.5
+  - @ctx-core/instagram@5.0.9
+  - @ctx-core/object@20.0.6
+  - @ctx-core/sleep@7.0.5
+  - @ctx-core/store@26.0.7
+
 ## 7.0.15
 
 ### Patch Changes
