@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 7.0.43
+
+### Patch Changes
+
+- @types/selenium-webdriver: ^4.0.14 -> ^4.0.15
+
 ## 7.0.42
 
 ### Patch Changes
