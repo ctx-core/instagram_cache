@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 7.0.46
+
+### Patch Changes
+
+- @types/jsdom: ^16.2.12 -> ^16.2.13
+- Updated dependencies [undefined]
+  - @ctx-core/ctx-core-package-tools@8.0.18
+
 ## 7.0.45
 
 ### Patch Changes
