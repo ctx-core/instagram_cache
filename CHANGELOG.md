@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 7.0.67
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.0.66
 
 ### Patch Changes
