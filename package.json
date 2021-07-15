@@ -22,7 +22,7 @@
 		"@ctx-core/array": "workspace:^23.0.2",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.27",
 		"@ctx-core/dom": "workspace:^11.0.3",
-		"@ctx-core/fetch": "workspace:^11.0.3",
+		"@ctx-core/fetch": "workspace:^11.0.4",
 		"@ctx-core/fontawesome": "workspace:^15.0.4",
 		"@ctx-core/function": "workspace:^20.0.2",
 		"@ctx-core/instagram": "workspace:^6.0.4",
