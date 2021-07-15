@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 8.0.3
+
+### Patch Changes
+
+- import: + .js extention
+- Updated dependencies [undefined]
+  - @ctx-core/instagram_cache@8.0.3
+
 ## 8.0.2
 
 ### Patch Changes
