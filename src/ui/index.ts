@@ -1,1 +1,1 @@
-export * from './InstagramGallery'
+export * from './InstagramGallery/index.js'

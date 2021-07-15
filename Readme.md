@@ -37,5 +37,5 @@ cache-instagram.js
 `INSTAGRAM_NAME` -
 	Name of the instagram account
 
-`MEDIUM_PATHNAME_A1_KEY` -
+`MEDIUM_PATHNAME_A_KEY` -
 	S3 Key for the file containing the Array of Paths of Media

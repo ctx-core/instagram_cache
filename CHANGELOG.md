@@ -1,5 +1,16 @@
 # @ctx-core/instagram_cache
 
+## 8.0.4
+
+### Patch Changes
+
+- fix: module imports;types
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.3
+  - @ctx-core/fontawesome@15.0.4
+  - @ctx-core/instagram@6.0.4
+  - @ctx-core/instagram_cache@8.0.4
+
 ## 8.0.3
 
 ### Patch Changes

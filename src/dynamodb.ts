@@ -4,7 +4,7 @@ import { created_time_ } from './created_time_.js'
 import { medium_pathname_a_ } from './medium_pathname_a_'
 const dynamoDB = new DynamoDBClient({})
 const TableName = 'instagram_media.js'
-export async function put_all_media() {
+export async function put_all_media():Promise<void[]> {
 	const current_medium_pathname_a = await medium_pathname_a_()
 	const promise_a = [] as Promise<void>[]
 	for (let i = 0; i < current_medium_pathname_a.length; i++) {
@@ -13,7 +13,7 @@ export async function put_all_media() {
 		promise_a.push(put(pathname, Item))
 	}
 	return await Promise.all(promise_a)
-	async function put(_pathname:string, Item:dynamodb_Item_I|undefined) {
+	async function put(_pathname:string, Item:dynamodb_Item_I|undefined):Promise<void> {
 		const putItemCommand = new PutItemCommand({
 			TableName,
 			Item,
