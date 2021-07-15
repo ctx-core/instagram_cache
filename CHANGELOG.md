@@ -1,5 +1,26 @@
 # @ctx-core/instagram_cache
 
+## 8.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.0
+  - @ctx-core/dom@11.0.0
+  - @ctx-core/fetch@11.0.0
+  - @ctx-core/fontawesome@15.0.0
+  - @ctx-core/function@20.0.0
+  - @ctx-core/instagram@6.0.0
+  - @ctx-core/instagram_cache@8.0.0
+  - @ctx-core/object@21.0.0
+  - @ctx-core/sleep@8.0.0
+  - @ctx-core/store@27.0.0
+  - @ctx-core/ctx-core-package-tools@8.0.25
+
 ## 7.0.70
 
 ### Patch Changes
