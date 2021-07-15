@@ -1,4 +1,4 @@
-import { fetch_medium_pathname_a } from './fetch_medium_pathname_a'
+import { fetch_medium_pathname_a } from './fetch_medium_pathname_a.js'
 export async function medium_pathname_a_():Promise<string[]> {
 	const response = await fetch_medium_pathname_a()
 	const text = await response.text()

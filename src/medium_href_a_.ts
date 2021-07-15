@@ -1,6 +1,6 @@
 import webdriver from 'selenium-webdriver'
 import { sleep } from '@ctx-core/sleep'
-import { medium_pathname_a_ } from './medium_pathname_a_'
+import { medium_pathname_a_ } from './medium_pathname_a_.js'
 export async function medium_href_a_(opts:medium_href_a__opts_T = {}) {
 	const {
 		INSTAGRAM_NAME = process.env.INSTAGRAM_NAME,

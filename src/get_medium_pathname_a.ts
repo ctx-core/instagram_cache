@@ -1,5 +1,5 @@
 import { GetObjectCommand, S3Client } from '@aws-sdk/client-s3'
-import type { medium_pathname_a_opts_T } from './medium_pathname_a_opts_T'
+import type { medium_pathname_a_opts_T } from './medium_pathname_a_opts_T.js'
 const Bucket = process.env.S3_BUCKET as string
 export async function get_medium_pathname_a(opts:medium_pathname_a_opts_T = {}) {
 	const {

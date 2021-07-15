@@ -1,5 +1,25 @@
 # @ctx-core/instagram_cache
 
+## 8.0.1
+
+### Patch Changes
+
+- 2a6971f80: fix: "type": "module"
+- fix: "type": "module"
+- Updated dependencies [2a6971f80]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.1
+  - @ctx-core/dom@11.0.1
+  - @ctx-core/fetch@11.0.1
+  - @ctx-core/fontawesome@15.0.1
+  - @ctx-core/function@20.0.1
+  - @ctx-core/instagram@6.0.1
+  - @ctx-core/instagram_cache@8.0.1
+  - @ctx-core/object@21.0.1
+  - @ctx-core/sleep@8.0.1
+  - @ctx-core/store@27.0.1
+  - @ctx-core/ctx-core-package-tools@8.0.26
+
 ## 8.0.0
 
 ### Major Changes
