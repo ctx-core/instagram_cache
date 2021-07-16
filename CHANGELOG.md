@@ -1,5 +1,23 @@
 # @ctx-core/instagram_cache
 
+## 8.0.9
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.3
+  - @ctx-core/dom@11.0.4
+  - @ctx-core/fetch@11.0.6
+  - @ctx-core/fontawesome@15.0.8
+  - @ctx-core/function@20.0.3
+  - @ctx-core/instagram@6.0.7
+  - @ctx-core/instagram_cache@8.0.9
+  - @ctx-core/object@21.0.3
+  - @ctx-core/sleep@8.0.3
+  - @ctx-core/store@27.0.3
+  - @ctx-core/ctx-core-package-tools@8.0.28
+
 ## 8.0.8
 
 ### Patch Changes
