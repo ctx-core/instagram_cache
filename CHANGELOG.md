@@ -1,5 +1,41 @@
 # @ctx-core/instagram_cache
 
+## 8.0.17
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.11
+  - @ctx-core/dom@11.0.12
+  - @ctx-core/fetch@11.0.14
+  - @ctx-core/fontawesome@15.0.16
+  - @ctx-core/function@20.0.10
+  - @ctx-core/instagram@6.0.15
+  - @ctx-core/instagram_cache@8.0.17
+  - @ctx-core/object@21.0.10
+  - @ctx-core/sleep@8.0.9
+  - @ctx-core/store@27.0.9
+  - @ctx-core/ctx-core-package-tools@8.0.35
+
+## 8.0.16
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.10
+  - @ctx-core/dom@11.0.11
+  - @ctx-core/fetch@11.0.13
+  - @ctx-core/fontawesome@15.0.15
+  - @ctx-core/function@20.0.9
+  - @ctx-core/instagram@6.0.14
+  - @ctx-core/instagram_cache@8.0.16
+  - @ctx-core/object@21.0.9
+  - @ctx-core/sleep@8.0.8
+  - @ctx-core/store@27.0.8
+  - @ctx-core/ctx-core-package-tools@8.0.34
+
 ## 8.0.15
 
 ### Patch Changes
