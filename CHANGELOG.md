@@ -1,5 +1,21 @@
 # @ctx-core/instagram_cache
 
+## 8.0.21
+
+### Patch Changes
+
+- exports: + "package.json": "./package.json"
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.12
+  - @ctx-core/dom@11.0.14
+  - @ctx-core/fontawesome@15.0.17
+  - @ctx-core/function@20.0.11
+  - @ctx-core/instagram@6.0.19
+  - @ctx-core/instagram_cache@8.0.21
+  - @ctx-core/object@21.0.11
+  - @ctx-core/sleep@8.0.10
+  - @ctx-core/store@27.0.10
+
 ## 8.0.20
 
 ### Patch Changes
