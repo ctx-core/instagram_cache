@@ -1,5 +1,15 @@
 # @ctx-core/instagram_cache
 
+## 8.0.41
+
+### Patch Changes
+
+- svelte: 3.40.3 -> 3.41.0
+- Updated dependencies [undefined]
+  - @ctx-core/fontawesome@15.0.26
+  - @ctx-core/instagram_cache@8.0.41
+  - @ctx-core/store@27.0.16
+
 ## 8.0.40
 
 ### Patch Changes
