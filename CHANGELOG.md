@@ -1,5 +1,14 @@
 # @ctx-core/instagram_cache
 
+## 8.0.76
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/instagram@6.0.48
+  - @ctx-core/instagram_cache@8.0.76
+
 ## 8.0.75
 
 ### Patch Changes
