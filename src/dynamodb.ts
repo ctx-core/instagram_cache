@@ -22,7 +22,7 @@ export async function put_all_media():Promise<void[]> {
 		try {
 			await dynamoDB.send(putItemCommand)
 			console.debug('success!', Item)
-		} catch (err) {
+		} catch (err:any) {
 			if (err.code != 'ConditionalCheckFailedException') {
 				throw err
 			}

@@ -1,5 +1,14 @@
 # @ctx-core/instagram_cache
 
+## 8.0.83
+
+### Patch Changes
+
+- fix: typescript upgrade: build
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.22
+  - @ctx-core/instagram_cache@8.0.83
+
 ## 8.0.82
 
 ### Patch Changes
