@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 8.0.94
+
+### Patch Changes
+
+- chromedriver: ^93.0.0 -> ^93.0.1
+- Updated dependencies [undefined]
+  - @ctx-core/instagram_cache@8.0.94
+
 ## 8.0.93
 
 ### Patch Changes
