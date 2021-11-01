@@ -1,5 +1,35 @@
 # @ctx-core/instagram_cache
 
+## 8.0.133
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- chromedriver: ^94.0.0 -> ^95.0.0
+- @aws-sdk/client-dynamodb: ^3.36.0 -> ^3.39.0
+- @aws-sdk/client-s3: ^3.36.0 -> ^3.39.0
+- @types/selenium-webdriver: ^4.0.15 -> ^4.0.16
+- svelte: 3.43.1 -> 3.44.0
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.22
+  - @ctx-core/dom@11.0.28
+  - @ctx-core/fetch@11.0.77
+  - @ctx-core/fontawesome@15.0.58
+  - @ctx-core/function@20.2.2
+  - @ctx-core/instagram@6.0.76
+  - @ctx-core/instagram_cache@8.0.133
+  - @ctx-core/object@21.0.21
+  - @ctx-core/sleep@8.0.14
+  - @ctx-core/store@27.0.34
+  - @ctx-core/ctx-core-package-tools@8.0.77
+
 ## 8.0.132
 
 ### Patch Changes
