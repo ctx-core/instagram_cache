@@ -34,7 +34,7 @@
 		"@ctx-core/array": "workspace:^23.0.22",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.77",
 		"@ctx-core/dom": "workspace:^11.0.28",
-		"@ctx-core/fetch": "workspace:^11.0.77",
+		"@ctx-core/fetch": "workspace:^11.0.78",
 		"@ctx-core/fontawesome": "workspace:^15.0.59",
 		"@ctx-core/function": "workspace:^20.2.2",
 		"@ctx-core/instagram": "workspace:^6.0.76",
