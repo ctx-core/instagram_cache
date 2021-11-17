@@ -1,3 +1,2 @@
 import 'svelte'
-import InstagramGallery from './InstagramGallery.svelte'
-export { InstagramGallery }
+export * as InstagramGallery from './InstagramGallery.svelte'

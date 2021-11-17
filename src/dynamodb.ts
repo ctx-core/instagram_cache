@@ -1,7 +1,7 @@
 import { AttributeValue, DynamoDBClient, PutItemCommand } from '@aws-sdk/client-dynamodb'
 import { medium_ } from '@ctx-core/instagram'
 import { created_time_ } from './created_time_.js'
-import { medium_pathname_a_ } from './medium_pathname_a_'
+import { medium_pathname_a_ } from './medium_pathname_a_.js'
 const dynamoDB = new DynamoDBClient({})
 const TableName = 'instagram_media.js'
 export async function put_all_media():Promise<void[]> {

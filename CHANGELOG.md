@@ -1,5 +1,15 @@
 # @ctx-core/instagram_cache
 
+## 8.0.140
+
+### Patch Changes
+
+- InstagramGallery: lang=ts
+- Updated dependencies
+  - @ctx-core/instagram_cache@8.0.140
+  - @ctx-core/fontawesome@15.1.2
+  - @ctx-core/fetch@11.0.82
+
 ## 8.0.139
 
 ### Patch Changes
