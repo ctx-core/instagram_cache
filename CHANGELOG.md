@@ -1,5 +1,55 @@
 # @ctx-core/instagram_cache
 
+## 8.0.144
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/ctx-core-package-tools@8.0.80
+  - @ctx-core/array@23.0.27
+  - @ctx-core/dom@11.0.34
+  - @ctx-core/fetch@11.0.85
+  - @ctx-core/fontawesome@15.1.5
+  - @ctx-core/function@20.2.7
+  - @ctx-core/instagram@6.0.83
+  - @ctx-core/instagram_cache@8.0.144
+  - @ctx-core/object@21.0.26
+  - @ctx-core/sleep@8.0.19
+  - @ctx-core/store@27.0.40
+
+## 8.0.143
+
+### Patch Changes
+
+- selenium-webdriver: ^4.0.0 -> ^4.1.0
+- svelte: 3.44.1 -> 3.44.2
+- jsdom: ^18.1.0 -> ^18.1.1
+- @aws-sdk/client-dynamodb: ^3.41.0 -> ^3.42.0
+- @aws-sdk/client-s3: ^3.41.0 -> ^3.42.0
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/ctx-core-package-tools@8.0.79
+  - @ctx-core/instagram_cache@8.0.143
+  - @ctx-core/fontawesome@15.1.4
+  - @ctx-core/store@27.0.39
+  - @ctx-core/array@23.0.26
+  - @ctx-core/dom@11.0.33
+  - @ctx-core/fetch@11.0.84
+  - @ctx-core/function@20.2.6
+  - @ctx-core/instagram@6.0.82
+  - @ctx-core/object@21.0.25
+  - @ctx-core/sleep@8.0.18
+
 ## 8.0.142
 
 ### Patch Changes
