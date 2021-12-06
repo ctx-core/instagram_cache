@@ -33,7 +33,7 @@
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.83",
 		"@ctx-core/dom": "workspace:^11.0.38",
 		"@ctx-core/fetch": "workspace:^11.0.89",
-		"@ctx-core/fontawesome": "workspace:^15.1.10",
+		"@ctx-core/fontawesome": "workspace:^15.1.11",
 		"@ctx-core/function": "workspace:^20.2.12",
 		"@ctx-core/instagram": "workspace:^6.0.89",
 		"@ctx-core/instagram_cache": "workspace:^8.0.152",
@@ -48,7 +48,7 @@
 		"url-parse": "^1.5.3"
 	},
 	"devDependencies": {
-		"@ctx-core/dev-tools": "workspace:^7.2.7",
+		"@ctx-core/dev-tools": "workspace:^7.2.8",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",
 		"@types/jsdom": "^16.2.13",
