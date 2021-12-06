@@ -1,5 +1,20 @@
 # @ctx-core/instagram_cache
 
+## 8.0.153
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+  - @ctx-core/dom@11.0.39
+  - @ctx-core/fetch@11.0.90
+  - @ctx-core/fontawesome@15.1.12
+  - @ctx-core/instagram@6.0.90
+  - @ctx-core/instagram_cache@8.0.153
+  - @ctx-core/sleep@8.0.23
+  - @ctx-core/store@27.0.45
+
 ## 8.0.152
 
 ### Patch Changes
