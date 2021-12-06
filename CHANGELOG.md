@@ -1,5 +1,22 @@
 # @ctx-core/instagram_cache
 
+## 8.0.148
+
+### Patch Changes
+
+- @swc/core: ^1.2.117 -> ^1.2.118
+- Updated dependencies
+  - @ctx-core/array@23.0.30
+  - @ctx-core/dom@11.0.37
+  - @ctx-core/fetch@11.0.88
+  - @ctx-core/fontawesome@15.1.9
+  - @ctx-core/function@20.2.10
+  - @ctx-core/instagram@6.0.87
+  - @ctx-core/instagram_cache@8.0.148
+  - @ctx-core/object@21.0.29
+  - @ctx-core/sleep@8.0.22
+  - @ctx-core/store@27.0.43
+
 ## 8.0.147
 
 ### Patch Changes
