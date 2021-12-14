@@ -22,7 +22,7 @@ cache-instagram.js
 
 <InstagramGallery></InstagramGallery>
 
-<style type="text/scss">
+<style lang="scss">
 	@import "~@ctx-core/instagram_cache/InstagramGallery";
 	@import "your-css/variables";
 	@include InstagramGallery(
