@@ -1,5 +1,16 @@
 # @ctx-core/instagram_cache
 
+## 10.0.1
+
+### Patch Changes
+
+- svelte: 3.44.2 -> 3.44.3
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/ctx-core-package-tools@8.0.86
+  - @ctx-core/instagram_cache@10.0.1
+  - @ctx-core/store@27.0.47
+
 ## 10.0.0
 
 ### Major Changes
