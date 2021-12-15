@@ -1,5 +1,23 @@
 # @ctx-core/instagram_cache
 
+## 10.0.6
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/dom@11.0.43
+  - @ctx-core/fetch@11.0.96
+  - @ctx-core/fontawesome@16.0.4
+  - @ctx-core/function@20.2.15
+  - @ctx-core/instagram@6.0.96
+  - @ctx-core/instagram_cache@10.0.6
+  - @ctx-core/object@22.0.3
+  - @ctx-core/sleep@8.0.27
+  - @ctx-core/store@27.0.50
+  - @ctx-core/ctx-core-package-tools@8.0.90
+
 ## 10.0.5
 
 ### Patch Changes
