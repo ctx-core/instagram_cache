@@ -1,5 +1,25 @@
 # @ctx-core/instagram_cache
 
+## 10.0.4
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/ctx-core-package-tools@8.0.88
+  - @ctx-core/array@23.0.34
+  - @ctx-core/dom@11.0.41
+  - @ctx-core/fetch@11.0.94
+  - @ctx-core/fontawesome@16.0.2
+  - @ctx-core/function@20.2.13
+  - @ctx-core/instagram@6.0.94
+  - @ctx-core/instagram_cache@10.0.4
+  - @ctx-core/object@22.0.1
+  - @ctx-core/sleep@8.0.25
+  - @ctx-core/store@27.0.48
+
 ## 10.0.3
 
 ### Patch Changes
