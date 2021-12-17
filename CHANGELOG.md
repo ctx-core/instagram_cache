@@ -1,5 +1,17 @@
 # @ctx-core/instagram_cache
 
+## 10.0.10
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/array@23.0.40
+  - @ctx-core/dom@11.0.47
+  - @ctx-core/fetch@11.0.100
+  - @ctx-core/object@22.0.7
+  - @ctx-core/store@27.0.54
+
 ## 10.0.9
 
 ### Patch Changes
