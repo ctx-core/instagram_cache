@@ -1,5 +1,17 @@
 # @ctx-core/instagram_cache
 
+## 10.0.11
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/array@23.0.41
+  - @ctx-core/dom@11.0.48
+  - @ctx-core/fetch@11.0.101
+  - @ctx-core/object@22.0.8
+  - @ctx-core/store@27.0.55
+
 ## 10.0.10
 
 ### Patch Changes
