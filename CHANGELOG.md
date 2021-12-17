@@ -1,5 +1,17 @@
 # @ctx-core/instagram_cache
 
+## 10.0.9
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/dom@11.0.46
+  - @ctx-core/fetch@11.0.99
+  - @ctx-core/object@22.0.6
+  - @ctx-core/store@27.0.53
+
 ## 10.0.8
 
 ### Patch Changes
