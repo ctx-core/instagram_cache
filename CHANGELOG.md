@@ -1,5 +1,15 @@
 # @ctx-core/instagram_cache
 
+## 11.0.0
+
+### Major Changes
+
+- using @ctx-core/nanostores for stores instead of @ctx-core/store,@ctx-core/svelte
+
+### Patch Changes
+
+- @ctx-core/fetch@11.0.102
+
 ## 10.0.11
 
 ### Patch Changes
