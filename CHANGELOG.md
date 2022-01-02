@@ -1,5 +1,17 @@
 # @ctx-core/instagram_cache
 
+## 11.0.6
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/dom@11.1.2
+  - @ctx-core/fetch@11.0.104
+  - @ctx-core/nanostores@0.3.1
+  - @ctx-core/svelte@10.1.2
+
 ## 11.0.5
 
 ### Patch Changes
