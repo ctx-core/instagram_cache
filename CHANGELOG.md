@@ -1,5 +1,20 @@
 # @ctx-core/instagram_cache
 
+## 11.0.9
+
+### Patch Changes
+
+- uvu: ^0.5.2 -> ^0.5.3
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@23.1.3
+  - @ctx-core/dom@11.1.4
+  - @ctx-core/fetch@11.0.108
+  - @ctx-core/nanostores@0.3.3
+  - @ctx-core/object@22.0.11
+  - @ctx-core/svelte@10.1.4
+
 ## 11.0.8
 
 ### Patch Changes
