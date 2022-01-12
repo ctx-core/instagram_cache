@@ -26,7 +26,7 @@
 		"@ctx-core/array": "workspace:^23.1.4",
 		"@ctx-core/dom": "workspace:^11.1.5",
 		"@ctx-core/fetch": "workspace:^11.0.111",
-		"@ctx-core/nanostores": "workspace:^0.3.7",
+		"@ctx-core/nanostores": "workspace:^0.3.8",
 		"@ctx-core/object": "workspace:^22.0.12",
 		"@ctx-core/svelte": "workspace:^10.1.5"
 	},
