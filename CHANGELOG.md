@@ -1,5 +1,19 @@
 # @ctx-core/instagram_cache
 
+## 12.0.0
+
+### Major Changes
+
+- all functions that use fetch return pairs [payload, response]
+
+### Patch Changes
+
+- use fetch instead of safe_fetch
+- use fetch instead of safe_fetch
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fetch-undici@1.1.0
+
 ## 11.1.2
 
 ### Patch Changes
