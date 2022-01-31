@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 13.0.2
+
+### Patch Changes
+
+- version bump
+
 ## 13.0.1
 
 ### Patch Changes
