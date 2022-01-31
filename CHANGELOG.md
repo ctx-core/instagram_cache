@@ -1,5 +1,15 @@
 # @ctx-core/instagram_cache
 
+## 13.0.0
+
+### Major Changes
+
+- flatten functions: remove \_b suffix from exports
+
+### Patch Changes
+
+- @ctx-core/fetch-undici@1.1.1
+
 ## 12.0.2
 
 ### Patch Changes
