@@ -2,9 +2,8 @@ import { computed$ } from '@ctx-core/nanostores'
 import { be_ } from '@ctx-core/object'
 import { medium_pathname_a$_ } from './medium_pathname_a$_.js'
 import { medium_pathname_idx$_ } from './medium_pathname_idx$_.js'
-const key = 'medium_pathname$'
 /** @type {import(medium_pathname$_).medium_pathname$_} */
-export const medium_pathname$_ = be_(key, ctx=>{
+export const medium_pathname$_ = be_('medium_pathname$', ctx=>{
 	return computed$([
 		medium_pathname_a$_(ctx),
 		medium_pathname_idx$_(ctx)
