@@ -1,5 +1,20 @@
 # @ctx-core/instagram_cache
 
+## 13.0.8
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies
+  - @ctx-core/fetch-undici@1.1.6
+
+## 13.0.7
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@0.6.0
+
 ## 13.0.6
 
 ### Patch Changes
