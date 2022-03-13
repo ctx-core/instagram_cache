@@ -26,7 +26,7 @@
 		"@ctx-core/array": "*",
 		"@ctx-core/dom": "^11.1.8",
 		"@ctx-core/fetch-undici": "^1.2.10",
-		"@ctx-core/nanostores": "^1.0.5",
+		"@ctx-core/nanostores": "^1.0.6",
 		"@ctx-core/object": "*",
 		"@ctx-core/svelte": "^10.1.8"
 	},
