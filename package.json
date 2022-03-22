@@ -22,7 +22,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.54.1",
+		"@aws-sdk/client-s3": "^3.55.0",
 		"@ctx-core/array": "*",
 		"@ctx-core/dom": "^11.1.8",
 		"@ctx-core/fetch-undici": "^1.2.11",
