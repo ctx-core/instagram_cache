@@ -21,11 +21,11 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.72.0",
-		"@ctx-core/array": "^26.1.4",
-		"@ctx-core/dom": "^11.1.11",
+		"@ctx-core/array": "^26.1.5",
+		"@ctx-core/dom": "^11.1.12",
 		"@ctx-core/fetch-undici": "^2.1.1",
-		"@ctx-core/nanostores": "^1.0.12",
-		"@ctx-core/object": "^22.1.5",
+		"@ctx-core/nanostores": "^1.0.13",
+		"@ctx-core/object": "^22.1.6",
 		"@ctx-core/svelte": "^10.1.13"
 	},
 	"devDependencies": {
