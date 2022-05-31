@@ -1,5 +1,17 @@
 # @ctx-core/instagram_cache
 
+## 13.1.0
+
+### Minor Changes
+
+- \__ suffix aliased by \$_
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/array@26.5.0
+  - @ctx-core/svelte@10.2.0
+
 ## 13.0.69
 
 ### Patch Changes
