@@ -25,7 +25,7 @@
 		"@ctx-core/dom": "^11.1.21",
 		"@ctx-core/fetch-undici": "^2.1.12",
 		"@ctx-core/nanostores": "^1.4.0",
-		"@ctx-core/object": "^22.2.0",
+		"@ctx-core/object": "^22.2.1",
 		"@ctx-core/svelte": "^10.1.24"
 	},
 	"devDependencies": {
