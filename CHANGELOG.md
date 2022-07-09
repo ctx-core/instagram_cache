@@ -1,5 +1,12 @@
 # @ctx-core/instagram_cache
 
+## 13.1.17
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/svelte@12.0.0
+
 ## 13.1.16
 
 ### Patch Changes
