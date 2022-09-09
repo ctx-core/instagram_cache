@@ -26,7 +26,7 @@
 		"@ctx-core/fetch-undici": "^2.3.5",
 		"@ctx-core/nanostores": "^2.0.1",
 		"@ctx-core/object": "^22.2.8",
-		"@ctx-core/svelte": "^13.0.2"
+		"@ctx-core/svelte": "^13.0.3"
 	},
 	"devDependencies": {
 		"c8": "^7.12.0",
