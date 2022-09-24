@@ -1,5 +1,12 @@
 # @ctx-core/instagram_cache
 
+## 13.1.46
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^2.0.2 -> ^2.2.0
+- @ctx-core/svelte: ^13.2.0 -> ^13.4.0
+
 ## 13.1.45
 
 ### Patch Changes
