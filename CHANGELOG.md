@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 13.1.49
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.181.0 -> ^3.183.0
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.3.6
+
 ## 13.1.48
 
 ### Patch Changes
