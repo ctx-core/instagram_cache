@@ -21,7 +21,7 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.209.0",
-		"@ctx-core/array": "^26.7.8",
+		"@ctx-core/array": "^26.8.0",
 		"@ctx-core/dom": "^11.1.28",
 		"@ctx-core/fetch-undici": "^2.3.7",
 		"@ctx-core/nanostores": "^2.2.1",
