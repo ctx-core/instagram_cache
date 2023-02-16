@@ -1,5 +1,20 @@
 # @ctx-core/instagram_cache
 
+## 14.0.0
+
+### Major Changes
+
+- - source**medium_pathname_a**reload: removed source**medium_pathname_a** member functions
+
+## 13.2.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+- - source**medium_pathname_a**: aliased by source_medium_pathname_a\_\_
+- - medium_pathname_a\_\_fetch_get: aliased by fetch_medium_pathname_a
+- - s3\__medium_pathname_a_: aliased by get_medium_pathname_a
+
 ## 13.1.173
 
 ### Patch Changes

@@ -1,8 +1,8 @@
 import { next_idx_, prev_idx_ } from '@ctx-core/array'
 import { atom_ } from '@ctx-core/nanostores'
 import { assign, be_ } from '@ctx-core/object'
-import { medium_pathname_a__ } from './medium_pathname_a__.js'
-/** @type {import(medium_pathname_idx__.d.ts).medium_pathname_idx__} */
+import { medium_pathname_a__ } from '../medium_pathname_a__/index.js'
+/** @type {typeof import(medium_pathname_idx__.d.ts).medium_pathname_idx__} */
 export const medium_pathname_idx__ = be_('medium_pathname_idx_', ctx=>{
 	const medium_pathname_idx_ = atom_(0)
 	const medium_pathname_a_ = medium_pathname_a__(ctx)
