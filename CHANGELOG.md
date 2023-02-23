@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 14.0.25
+
+### Patch Changes
+
+- reference type: Be instead of B
+
 ## 14.0.24
 
 ### Patch Changes
