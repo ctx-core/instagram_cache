@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 14.0.41
+
+### Patch Changes
+
+- import*meta_env*() instead of process.env
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 14.0.40
 
 ### Patch Changes
