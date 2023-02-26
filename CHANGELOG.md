@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 14.0.42
+
+### Patch Changes
+
+- dependencies: fix: @ctx-core/env
+
 ## 14.0.41
 
 ### Patch Changes
