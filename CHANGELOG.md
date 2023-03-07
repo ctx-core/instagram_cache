@@ -1,5 +1,14 @@
 # @ctx-core/instagram_cache
 
+## 14.0.63
+
+### Patch Changes
+
+- @ctx-core/dom: ^11.4.33 -> ^11.4.34
+- @ctx-core/env: ^17.2.30 -> ^17.2.31
+- Updated dependencies
+  - @ctx-core/fetch-undici@2.3.136
+
 ## 14.0.62
 
 ### Patch Changes
