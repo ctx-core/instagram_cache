@@ -1,5 +1,12 @@
 # @ctx-core/instagram_cache
 
+## 14.0.82
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.34 -> ^17.2.36
+- @ctx-core/svelte: ^13.4.53 -> ^13.4.54
+
 ## 14.0.81
 
 ### Patch Changes
