@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 14.0.291
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.363.0 -> ^3.367.0
+- Updated dependencies
+  - @ctx-core/svelte@14.1.14
+
 ## 14.0.290
 
 ### Patch Changes
