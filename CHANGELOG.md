@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 14.0.297
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^5.2.8 -> ^5.2.9
+- Updated dependencies
+  - @ctx-core/env@17.2.125
+
 ## 14.0.296
 
 ### Patch Changes
