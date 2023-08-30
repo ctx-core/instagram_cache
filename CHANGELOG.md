@@ -1,5 +1,49 @@
 # @ctx-core/instagram_cache
 
+## 15.0.0
+
+### Major Changes
+
+- medium*pathname_idx$*:
+
+      - next_medium_pathname
+      - prev_medium_pathname
+
+- medium_pathname_a_opts_T=>medium_pathname_a\_\_params_T
+- s3**medium*pathname_a*=>s3**medium_pathname_a\_\_new
+
+### Minor Changes
+
+- - medium*pathname_a*
+
+  medium*pathname_a$*: aliased by medium_pathname_a\_\_
+
+- - source**medium*pathname_a*,source**medium_pathname_a\_\_set
+
+  source**medium*pathname_a$*: aliased by source**medium_pathname_a\_\_
+
+- - medium*pathname*
+
+  medium*pathname$*: aliased by medium_pathname\_\_
+
+- - medium*pathname_idx*,medium_pathname_idx\_\_set
+
+  medium*pathname_idx$*: aliased by medium_pathname_idx\_\_
+
+- - medium_pathname_idx**next,medium_pathname_idx**prev
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/env@17.3.0
+  - @ctx-core/object@28.0.5
+
 ## 14.0.323
 
 ### Patch Changes
