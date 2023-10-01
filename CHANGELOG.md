@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 15.0.37
+
+### Patch Changes
+
+- @ctx-core/fetch-undici: ^3.0.11 -> ^3.0.12
+
 ## 15.0.36
 
 ### Patch Changes
