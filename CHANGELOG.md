@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 15.0.59
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.431.0 -> ^3.433.0
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.14
+
 ## 15.0.58
 
 ### Patch Changes
