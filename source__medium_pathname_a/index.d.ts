@@ -1,4 +1,4 @@
-import type { val__be_atom_triple_T, WritableAtom_ } from '@ctx-core/nanostores'
+import type { val__be_atom_triple_T } from '@ctx-core/nanostores'
 import type { Ctx } from '@ctx-core/object'
 export declare const [
 	source__medium_pathname_a$_,

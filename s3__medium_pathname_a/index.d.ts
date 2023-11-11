@@ -1,4 +1,4 @@
-import type { medium_pathname_a__params_T } from '../_types'
+import type { medium_pathname_a__params_T } from '../_types/index.js'
 export declare function s3__medium_pathname_a__new(
 	opts?:medium_pathname_a__params_T
 ):Promise<object|null>

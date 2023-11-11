@@ -1,7 +1,7 @@
 import { has_dom } from '@ctx-core/dom'
 import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
 import { medium_pathname_a__new } from '../medium_pathname_a/index.js'
-/** @type {typeof import(source__medium_pathname_a__.d.ts)}.source__medium_pathname_a__ */
+/** @type {typeof import('./index.d.ts')}.source__medium_pathname_a__ */
 export const [
 	source__medium_pathname_a$_,
 	source__medium_pathname_a_,
