@@ -1,14 +1,14 @@
 import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
-import { val__be_computed_pair_ } from '@ctx-core/nanostores'
+import { be_computed_pair_ } from '@ctx-core/nanostores'
 import { source__medium_pathname_a_ } from '../source__medium_pathname_a/index.js'
 /** @type {typeof import('./index.d.ts').medium_pathname_a__} */
 export const [
 	medium_pathname_a$_,
 	medium_pathname_a_,
-] = val__be_computed_pair_(
-	'medium_pathname_a', ctx=>
-		source__medium_pathname_a_(ctx) || [])
+] = be_computed_pair_(ctx=>
+	source__medium_pathname_a_(ctx) || [])
+	.config({ id: 'medium_pathname_a' })
 export { medium_pathname_a$_ as medium_pathname_a__ }
 /** @type {typeof import('./index.d.ts').medium_pathname_a__new} */
 export const medium_pathname_a__new = async ()=>{

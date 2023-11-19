@@ -1,8 +1,8 @@
-import type { val__be_computed_pair_T } from '@ctx-core/nanostores'
+import type { be_computed_pair_T } from '@ctx-core/nanostores'
 export declare const [
 	medium_pathname_a$_,
 	medium_pathname_a_,
-]:val__be_computed_pair_T<string[]>
+]:be_computed_pair_T<string[]>
 export { medium_pathname_a$_ as medium_pathname_a__ }
 export declare function medium_pathname_a__new():Promise<string[]>
 export { medium_pathname_a__new as _arr__pathname__medium }

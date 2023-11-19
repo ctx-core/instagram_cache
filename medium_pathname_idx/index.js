@@ -1,7 +1,7 @@
 import { next_idx_, prev_idx_ } from '@ctx-core/array'
 import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
 import { medium_pathname_a_ } from '../medium_pathname_a/index.js'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
+/** @typedef {import('@ctx-core/object').Ctx} */
 export const [
 	medium_pathname_idx$_,
 	medium_pathname_idx_,
