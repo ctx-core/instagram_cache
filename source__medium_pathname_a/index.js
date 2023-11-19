@@ -1,19 +1,20 @@
 import { has_dom } from '@ctx-core/dom'
-import { atom_, be_atom_triple_ } from '@ctx-core/nanostores'
+import { be_atom_triple_ } from '@ctx-core/nanostores'
 import { medium_pathname_a__new } from '../medium_pathname_a/index.js'
+/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
 /** @type {typeof import('./index.d.ts')} */
 export const [
 	source__medium_pathname_a$_,
 	source__medium_pathname_a_,
 	source__medium_pathname_a__set,
-] = be_atom_triple_('source__medium_pathname_a', ctx=>{
-	const source_medium_pathname_a$ = atom_(undefined)
-	if (has_dom) {
-		queueMicrotask(()=>
-			source__medium_pathname_a__reload(ctx))
-	}
-	return source_medium_pathname_a$
-})
+] = /** @type {be_atom_triple_T<string[]|undefined>} */ be_atom_triple_(()=>undefined)
+	.config({ id:'source__medium_pathname_a'})
+	.oninit(ctx=>{
+		if (has_dom) {
+			queueMicrotask(()=>
+				source__medium_pathname_a__reload(ctx))
+		}
+	})
 export {
 	source__medium_pathname_a$_ as source__medium_pathname_a__,
 	source__medium_pathname_a$_ as source_medium_pathname_a__,
