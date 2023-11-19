@@ -1,5 +1,15 @@
 # @ctx-core/instagram_cache
 
+## 15.1.31
+
+### Patch Changes
+
+- fix: be*computed_pair* instances
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@9.0.1
+  - @ctx-core/env@17.4.19
+
 ## 15.1.30
 
 ### Patch Changes
