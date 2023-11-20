@@ -8,8 +8,8 @@ export const [
 	medium_pathname_idx_,
 	medium_pathname_idx__set,
 ] = /** @type {be_atom_triple_T<number>} */ be_atom_triple_(()=>
-	0)
-	.config({ id: 'medium_pathname_idx' })
+	0,
+{ id: 'medium_pathname_idx' })
 export { medium_pathname_idx$_ as medium_pathname_idx__ }
 /**
  * @param {Ctx}ctx
