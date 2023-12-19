@@ -1,9 +1,9 @@
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
 import { be_computed_pair_ } from '@ctx-core/nanostores'
-import { source__medium_pathname_a$_, source__medium_pathname_a_ } from '../source__medium_pathname_a/index.js'
-/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
-/** @type {typeof import('./index.d.ts').medium_pathname_a__} */
+import { source__medium_pathname_a$_ } from '../source__medium_pathname_a/index.js'
 export const [
 	medium_pathname_a$_,
 	medium_pathname_a_,
@@ -20,7 +20,7 @@ export const medium_pathname_a__new = async ()=>{
 	return text.split('\n')
 }
 export { medium_pathname_a__new as _arr__pathname__medium }
-/** @type {typeof import('./index.d.ts').medium_pathname_a__fetch_get} */
+/** @type {typeof medium_pathname_a__fetch_get} */
 export const medium_pathname_a__fetch_get = async (opts = {})=>{
 	const {
 		Bucket = import_meta_env_().S3_BUCKET,

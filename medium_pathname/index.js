@@ -1,5 +1,5 @@
-import { nullish__none_ } from '@ctx-core/function'
 import { be_computed_pair_ } from '@ctx-core/nanostores'
+import { nullish__none_ } from 'ctx-core/function'
 import { medium_pathname_a$_ } from '../medium_pathname_a/index.js'
 import { medium_pathname_idx$_ } from '../medium_pathname_idx/index.js'
 export const [
