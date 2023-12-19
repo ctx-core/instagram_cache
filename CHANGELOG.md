@@ -1,5 +1,24 @@
 # @ctx-core/instagram_cache
 
+## 15.1.121
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.474.0 -> ^3.476.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/fetch-undici@3.1.102
+  - @ctx-core/dom@15.1.57
+  - @ctx-core/nanostores@10.0.1
+
 ## 15.1.120
 
 ### Patch Changes
