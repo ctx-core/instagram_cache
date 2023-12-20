@@ -1,19 +1,18 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { import_meta_env_ } from '@ctx-core/env'
 import { fetch } from '@ctx-core/fetch-undici'
-import { be_computed_pair_ } from '@ctx-core/nanostores'
-import { source__medium_pathname_a$_ } from '../source__medium_pathname_a/index.js'
+import { import_meta_env_ } from 'ctx-core/env'
+import { be_memo_pair_ } from 'ctx-core/rmemo'
+import { source__medium_pathname_a_ } from '../source__medium_pathname_a/index.js'
 export const [
 	medium_pathname_a$_,
 	medium_pathname_a_,
-] = /** @type {be_computed_pair_T<string[]>} */be_computed_pair_(
-	ctx=>source__medium_pathname_a$_(ctx),
-	source__medium_pathname_a=>
-		source__medium_pathname_a || [],
+] = /** @type {be_memo_pair_T<string[]>} */be_memo_pair_(
+	ctx=>
+		source__medium_pathname_a_(ctx) || [],
 	{ id: 'medium_pathname_a' })
 export { medium_pathname_a$_ as medium_pathname_a__ }
-/** @type {typeof import('./index.d.ts').medium_pathname_a__new} */
+/** @type {typeof medium_pathname_a__new} */
 export const medium_pathname_a__new = async ()=>{
 	const response = await medium_pathname_a__fetch_get()
 	const text = await response.text()
