@@ -1,5 +1,5 @@
 /// <reference types="ctx-core" />
-import { has_dom } from '@ctx-core/dom'
+import { is_browser_ } from 'ctx-core/env'
 import { be_sig_triple_ } from 'ctx-core/rmemo'
 import { medium_pathname_a__new } from '../medium_pathname_a/index.js'
 export const [
@@ -11,7 +11,7 @@ export const [
 		()=>undefined,
 		{ id: 'source__medium_pathname_a' }
 	).add(ctx=>{
-		if (has_dom) {
+		if (is_browser_()) {
 			queueMicrotask(()=>
 				source__medium_pathname_a__reload(ctx))
 		}

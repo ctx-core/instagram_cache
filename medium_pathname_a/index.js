@@ -1,6 +1,5 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { fetch } from '@ctx-core/fetch-undici'
 import { import_meta_env_ } from 'ctx-core/env'
 import { be_memo_pair_ } from 'ctx-core/rmemo'
 import { source__medium_pathname_a_ } from '../source__medium_pathname_a/index.js'
