@@ -22,7 +22,7 @@ export {
 	source__medium_pathname_a$_ as source_medium_pathname_a$_,
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @returns {Promise<void>}
  */
 export async function source__medium_pathname_a__reload(ctx) {

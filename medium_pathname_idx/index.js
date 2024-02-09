@@ -11,14 +11,14 @@ export const [
 { id: 'medium_pathname_idx' })
 export { medium_pathname_idx$_ as medium_pathname_idx__ }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function medium_pathname_idx__next(ctx) {
 	const { length } = medium_pathname_a_(ctx)
 	medium_pathname_idx__set(ctx, next_idx_(length, medium_pathname_idx_(ctx)))
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function medium_pathname_idx__prev(ctx) {
 	const { length } = medium_pathname_a_(ctx)
