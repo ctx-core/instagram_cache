@@ -1,8 +1,26 @@
 {
 	"name": "@ctx-core/instagram_cache",
-	"version": "15.1.261",
+	"version": "15.1.262",
 	"description": "instagram scraper, account cache, & gallery component",
+	"keywords": [
+		"ctx-core",
+		"instagram",
+		"cache"
+	],
 	"homepage": "https://github.com/ctx-core/instagram_cache#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/instagram_cache/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/instagram_cache.git"
+	},
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-instagram_cache@briantakita.me"
+	},
+	"license": "Apache-2.0",
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -32,7 +50,7 @@
 	},
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.536.0",
-		"ctx-core": "^6.6.0"
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
@@ -40,13 +58,6 @@
 		"tsx": "^4.7.1",
 		"typescript": "next",
 		"uvu": "^0.5.6"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/instagram_cache.git"
-	},
-	"bugs": {
-		"url": "https://github.com/ctx-core/instagram_cache/issues"
 	},
 	"sideEffects": false
 }

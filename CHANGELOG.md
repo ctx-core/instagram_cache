@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 15.1.262
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 15.1.261
 
 ### Patch Changes
