@@ -1,15 +1,16 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
 import { import_meta_env_ } from 'ctx-core/env'
-import { be_memo_pair_ } from 'ctx-core/rmemo'
+import { id_be_memo_pair_ } from 'ctx-core/rmemo'
 import { source__medium_pathname_a_ } from '../source__medium_pathname_a/index.js'
 export const [
 	medium_pathname_a$_,
 	medium_pathname_a_,
-] = /** @type {be_memo_pair_T<string[]>} */be_memo_pair_(
+] = /** @type {be_memo_pair_T<string[]>} */
+id_be_memo_pair_(
+	'medium_pathname_a',
 	ctx=>
-		source__medium_pathname_a_(ctx) || [],
-	{ id: 'medium_pathname_a' })
+		source__medium_pathname_a_(ctx) || [])
 export { medium_pathname_a$_ as medium_pathname_a__ }
 /** @type {typeof medium_pathname_a__new} */
 export const medium_pathname_a__new = async ()=>{
