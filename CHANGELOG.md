@@ -1,5 +1,11 @@
 # @ctx-core/instagram_cache
 
+## 15.1.282
+
+### Patch Changes
+
+- @aws-sdk/client-s3: ^3.552.0 -> ^3.554.0
+
 ## 15.1.281
 
 ### Patch Changes
