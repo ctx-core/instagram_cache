@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/instagram_cache",
-	"version": "15.1.301",
+	"version": "15.1.302",
 	"description": "instagram scraper, account cache, & gallery component",
 	"keywords": [
 		"ctx-core",
@@ -49,7 +49,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@aws-sdk/client-s3": "^3.577.0",
+		"@aws-sdk/client-s3": "^3.582.0",
 		"ctx-core": "^7.2.10"
 	},
 	"devDependencies": {
