@@ -1,5 +1,28 @@
 # @ctx-core/instagram_cache
 
+## 15.1.336
+
+### Patch Changes
+
+- c8: ^10.1.3 -> ^11.0.0
+- @aws-sdk/client-s3: ^3.926.0 -> ^3.1000.0
+- check-dts: ^0.8.2 -> ^0.9.0
+- tsx: ^4.20.6 -> ^4.21.0
+- @aws-sdk/client-s3: ^3.1000.0 -> ^3.1002.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.33
+
 ## 15.1.335
 
 ### Patch Changes
