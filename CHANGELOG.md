@@ -1,5 +1,13 @@
 # @ctx-core/instagram_cache
 
+## 15.1.337
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 15.1.336
 
 ### Patch Changes
